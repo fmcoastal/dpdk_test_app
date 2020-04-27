@@ -59,9 +59,25 @@ To Get Help Output:
 Download dpdk_test_app
 
    * cd to the directory where you want the "dpdk_test_app" directory created.
+
+  -- Github
+
    * execute the folloing command to download the Project:
 
       > git clone https://github.com/fmcoastal/dpdk_test_app.git
+
+  -- grok/Codeclips
+
+   * Go to http://grok.faelab.com  
+   * click the Code Clips link
+   * cd dpdk_test_app
+   
+   * review the README.md file
+   * download the dpdk_test_app.tgz 
+   * decompress the .tgz file
+
+      > tar -xzvf dpdk_test_app.tgz  
+
 
 To Build 
   -- Standalone Environment 
@@ -101,7 +117,7 @@ To Build
            include $(RTE_SDK)/mk/rte.extsubdir.mk
 
 
-   * buld the code from the <SDK_DIR>/<xxx_release_output> directory
+   * build the code from the <SDK_DIR>/<xxx_release_output> directory
       
       > cd ../../../
       > make dpdk-rebuild
